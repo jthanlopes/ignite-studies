@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 
@@ -5,7 +6,6 @@ import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 
 import styles from './Post.module.css';
-import { useState } from 'react';
 
 export function Post({author, publishedAt, content}) {
   const [comments, setComments] = useState([
