@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container>
       <Header>
-        <Image src={logoImg} alt="Outro" />
+        <Image src={logoImg} alt="Logo Ignite Shop" />
       </Header>
 
       <Component {...pageProps} />
